@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgba(79, 51, 176, 1.0), rgba(210, 53, 165));
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+}
+
+table {
+    width: 20em;
+    height: 30em;
+    padding: 1.5em;
+    border-radius: 1em;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, rgba(79, 51, 176, 1.0), rgba(210, 53, 165));
+    box-shadow: 0 0 1em 0.3em rgb(59, 57, 57);
+}
+
+thead {
+    height: 7em;
+    text-align: right;
+}
+
+thead tr {
+    height: 5em;
+}
+
+tbody {
+    height: 20em;
+}
+
+td {
+    text-align: center;
+    width: 25%;
+}
+
+button {
+    width: 2.3em;
+    height: 2.3em;
+    font-size: 1.5em;
+    border-radius: 50%;
+    border: none;
+    transition: all 300ms;
+}
+
+.num-btn:hover {
+    background-color: rgb(215, 183, 247);
+    scale: 1.15;
+}
+
+.num-btn:active {
+    background-color: white;
+    scale: 1;
+}
+
+.operation-btn {
+    background-color: rgba(79, 51, 176, 0.2);
+    color: white;
+}
+
+.operation-btn:hover {
+    scale: 1.15;
+}
+
+.operation-btn:active {
+    scale: 1;
+    background-color: rgb(215, 183, 247);
+}
+
+.equal-btn {
+    height: 96.6%;
+    border-radius: 2em;
+    background-color: rgba(79, 51, 176, 0.15);
+    color: white;
+}
+
+.equal-btn:hover {
+    scale: 1.07;
+}
+
+.equal-btn:active {
+    background-color: rgb(215, 183, 247);
+    scale: 1;
+}
+
+span {
+    width: 97.5%;
+    height: 100%;
+    font-size: 2.8em;
+    color: white;
+}
